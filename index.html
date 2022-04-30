@@ -19,12 +19,57 @@
 
 <body>
   <div class="container">
-    <form id="deposit">
+    <table class="table">
+      <thead>
+        <tr>
 
-    </form>
+          <th scope="col">
+            <h2>Register Your New Account</h2>
+            <form id="new-account">
+              <div>
+                <lable for="name">Your Name:</lable>
+              </div>
+              <input type="text" id="name">
+              <div>
+                <lable for="intial-deposit">Initital Deposit:</lable>
+              </div>
+              <input type="number" id="initial-deposit">
+              <div>
+                <button type="submit">Register New Account</button>
+              </div>
+            </form>
+          </th>
 
+          <th scope="col">
+            <h2>Change Amount</h2>
+            <form id="new-account">
+              <div>
+                <lable for="deposit">Your Deposit:</lable>
+              </div>
+              <input type="number" id="deposit">
+              <div>
+                <lable for="withdrawal">Your Withdrawal:</lable>
+              </div>
+              <input type="number" id="withdrawal">
+              <div>
+                <button type="submit">Change Amount</button>
+              </div>
+            </form>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Current Balance: <span class="current-balance"></span></td>
+        </tr>
+      </tbody>
+    </table>
 
   </div>
+
+
+
+
 </body>
 
 </html>
