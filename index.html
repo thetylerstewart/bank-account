@@ -42,7 +42,7 @@
 
           <th scope="col">
             <h2>Change Amount</h2>
-            <form id="new-account">
+            <form id="update-account">
               <div>
                 <lable for="deposit">Your Deposit:</lable>
               </div>
@@ -60,7 +60,11 @@
       </thead>
       <tbody>
         <tr>
-          <td>Current Balance: <span class="current-balance"></span></td>
+          <td>
+            <div id="show-balance">
+              <p><span class="user-name"></span> Your Current Balance is $<span class="balance"></span></p>
+            </div>
+          </td>
         </tr>
       </tbody>
     </table>
